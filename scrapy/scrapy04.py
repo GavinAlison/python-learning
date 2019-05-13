@@ -7,11 +7,7 @@
 # 使用lxml+xpath提取内容
 # >https://blog.csdn.net/naonao77/article/details/88129994
 
-
-from contextlib import closing
-import requests, json, re, os, sys, random, time
-from urllib.request import urlopen
-import urllib
+import requests
 from lxml import etree
 
 
@@ -23,16 +19,18 @@ def run():
     res = requests.get(url, headers=headers)
     tree = etree.HTML(res.text)
     names = tree.xpath('//div[@class="auth"]/a/text()')
-    create_times = tree.xpath('//div[@class="post-info"]/span[0]/text()')
+    create_times = tree.xpath('//div[@class="post-info"]/span/text()')
+    del create_times[1]
+    del create_times[1]
     contents = tree.xpath('//td[@class="postbody"]/text()')
-    # 出现隔行
-    for i in range(len(contents)):
-        contents[i] = contents[i].replace('\n', '').replace('\t', '').replace(' ', '')
+    for content in contents:
+        print(content.strip())
     result = []
-    for i in range(len(names) - 1):
+    for i in range(len(names)):
         dictTmp = {'name': names[i].strip(), 'create_time': create_times[i].strip(), 'content': contents[i].strip()}
         print(dictTmp)
         print('*' * 80)
+    result.append(dictTmp)
 
 
 if __name__ == '__main__':
