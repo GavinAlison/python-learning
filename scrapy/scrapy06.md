@@ -5,10 +5,6 @@
 
 3.  西刺直通点：https://www.xicidaili.com/ 。
 
-4.  参考资料：https://blog.csdn.net/weixin_43720396/article/details/88218204
-
-
-
 
 ### 1. 为什么会出现IP被封，如何应对IP被封的问题。
 网站为了防止被爬取，会有反爬机制，对于同一个IP地址的大量同类型的访问，会封锁IP，过一段时间后，才能继续访问    
@@ -41,3 +37,11 @@
 ### 3. 获取代理IP地址
 网站： https://www.xicidaili.com/
 
+
+
+
+
+
+参考资料：
+>1. https://blog.csdn.net/weixin_43720396/article/details/88218204
+>2. https://desmonday.github.io/2019/03/06/python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0-day6-IP%E4%BB%A3%E7%90%86/
