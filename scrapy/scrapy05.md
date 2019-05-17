@@ -5,6 +5,7 @@
 学习系列：
 -   [Selenium教程](https://selenium-python.readthedocs.io/)
 -   [Python爬虫学习-Day5](https://blog.csdn.net/weixin_42937385/article/details/88150379)
+-   [selenium的API](https://selenium-python-zh.readthedocs.io/en/latest/api.html)
 
 ## 2. 使用selenium模拟登陆163邮箱
 
