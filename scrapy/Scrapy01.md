@@ -268,7 +268,7 @@ Accept-Language：浏览器所希望的语言种类，当服务器能够提供�
 Authorization：授权信息，通常出现在对服务器发送的WWW-Authenticate头的应答中。
 Connection：表示是否需要持久连接。
 Content-Length：表示请求消息正文的长度。
-Cookie：这是最重要的请求头信息之一。
+Cookie：这是最重要的请求头信息之一。r
 User-Agent：浏览器类型，如果Servlet返回的内容与浏览器类型有关则该值非常有用。
 …  
 ```

@@ -12,14 +12,31 @@
 **每个任务完成大概所需时间**：2-3h/天
 
 # 任务预览（2天）
--   学习get与post请求，尝试使用requests或者是urllib用get方法向https://www.baidu.com/发出一个请求，并将其返回结果输出。
+-   Task1--学习get与post请求
+-   Task2--学习beautifulsoup, xpath
+-   Task3--使用selenium模拟登陆163邮箱， IP池
+-   Task4--实战， 登录丁香园论坛， 采集指定论坛的帖子内容
 
--   如果是断开了网络，再发出申请，结果又是什么。了解申请返回的状态码。
+# 任务结果
 
--   了解什么是请求头，如何添加请求头。
+1. requests和urllib.request 的get 和post 请求, 
+详见：Scrapy01.md， scrapy01.py
 
--   学习什么是正则表达式并尝试一些正则表达式并进行匹配。
+2. re正则 采集数据和 转换结果
+详见： scrapy02-re.md,  scrapy02.py
 
--   然后结合requests、re两者的内容爬取https://movie.douban.com/top250里的内容
+3. bs4的BeatifulSoup采集数据
+详见： scrapy03.md,  beautifulSoupMethod.md，BeautifulSoupDemo.py,  bsDemo.py
 
--   要求抓取名次、影片名称、国家、导演等字段。
+4. requests+ lxml+ xpath 采集数据与提取内容
+详见： scrapy04.py 
+
+5. 使用selenium模拟登陆163邮箱
+详见： scrapy05.md，   scrapy05.md.py，  selenium/**
+
+6. 学习IP，与构建IP池
+详见：scrapy06.md,  IPProxys.py
+
+7. 实战， 登录丁香园论坛， 采集指定论坛的帖子内容
+详见：scrapy07.py
+
