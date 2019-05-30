@@ -40,3 +40,10 @@
 7. 实战， 登录丁香园论坛， 采集指定论坛的帖子内容
 详见：scrapy07.py
 
+
+
+## 总结
+1. http工具， requests, urllib.request,  selenium.webdriver
+
+2. 内容提取re, BeatifulSoup, lxml.etree, xpath, 
+

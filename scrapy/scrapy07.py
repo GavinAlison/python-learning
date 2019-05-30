@@ -34,10 +34,10 @@ class scrapy07(object):
         # login
         username = browser.find_element_by_name('username')
         username.clear()
-        username.send_keys('15711320691')
+        username.send_keys('username')
         password = browser.find_element_by_name('password')
         password.clear()
-        password.send_keys('123!@#qwe')
+        password.send_keys('password')
         browser.find_element_by_xpath('//div[@class="form__button"]/button').click()
         #  先睡会，然后登录之后再次请求就可以不用登录了
         time.sleep(10)
