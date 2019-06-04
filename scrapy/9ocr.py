@@ -10,15 +10,6 @@ import tesserocr
 
 from tesserocr import PyTessBaseAPI
 
-# images = ['sample.jpg', 'sample2.jpg', 'sample3.jpg']
-
-# with PyTessBaseAPI() as api:
-#     for img in images:
-#         api.SetImageFile(img)
-#         print(api.GetUTF8Text())
-#         print(api.AllWordConfidences())
-
-
 # method-1
 # image = Image.open('./photo/image.jpg')
 # result = tesserocr.image_to_text(image)
