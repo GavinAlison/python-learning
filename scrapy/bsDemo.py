@@ -156,8 +156,6 @@ for tag in soup.find_all(surrounded_by_strings):
 print(soup.find_all("a", class_="sister"))
 
 
-
-
 # .这里有几个例子:
 soup.find_all("title")
 # [<title>The Dormouse's story</title>]
