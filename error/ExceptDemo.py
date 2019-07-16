@@ -26,7 +26,7 @@ class ExceptError():
     def test02(self):
         try:
             self.me(0)
-        except Exception as  err:
+        except Exception as err:
             print(err)
         else:
             print(2)

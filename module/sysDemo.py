@@ -21,6 +21,9 @@ sys
 
 import sys
 
+print(sys.path)
+print(sys.path[0])
+
 print('the file name : %s' % sys.argv[0])
 print('the number of argument %d ' % len(sys.argv))
 print('the argument is : %s' % str(sys.argv))
